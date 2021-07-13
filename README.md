@@ -40,13 +40,13 @@ por la api y mostradas de la siguiente forma:
 
 El modelo de las solicitudes base es:
 
-{
-    "name": string;
-    "lastName": string;
-    "identification": numeric;
-    "age": numeric;
-    "house": ["Gryffindor"|"Hufflepuff"|"Ravenclaw"|"Slytherin"];
-}
+    {
+        "name": string;
+        "lastName": string;
+        "identification": numeric;
+        "age": numeric;
+        "house": ["Gryffindor"|"Hufflepuff"|"Ravenclaw"|"Slytherin"];
+    }
 
 La app consta de un unico controlador con los 4 endpoints solicitados:
 
